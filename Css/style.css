@@ -1,0 +1,1104 @@
+style
+
+*::before
+*::after{
+    box-sizing: border-box;
+}
+:root{
+    --background-color: #F5F4FA;
+
+}
+ 
+.box-shadow{
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    background: #FFFFFF;
+}
+body {
+font-family: "Roboto" , sans-serif;
+
+}
+.header-padding {
+
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    flex-wrap:wrap; 
+    display: flex;  
+    margin: 0px auto;
+    flex-direction: row;  
+    
+}
+a:hover {
+    color: #2196F3;
+}
+button:hover {
+    color: #FFFFFF;
+}
+ul {
+
+    list-style-type: none;
+    
+    }
+header {
+    border: 1px solid #ECECEC;
+}
+.conteiner-link-header{
+    display: flex;
+    gap: 46px;
+    justify-content: center;
+    align-self: baseline;
+    margin-top: 25px;
+    margin-left: 93px;
+    
+}
+.conteiner-adress-header{
+    display: flex;
+    gap: 46px;
+    justify-content: flex-end;
+    align-self: center;
+    margin-left: 290px;
+}
+.nav-Webstudio{
+    /* WebStudio */
+
+    left: 215px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    /* identical to box height */
+    
+    letter-spacing: 0.03em;
+    
+    color: #2196F3;}
+.mailto-main{
+    /* info@devstudio.com */
+
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    
+    color: #757575;}
+.tel-main{
+    /* +48 111 111 111 */
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    
+    color: #757575;
+    }  
+.section {
+    padding : 94px
+}      
+.efect{
+    /* Bg */
+   height: 600px;
+   top: 80px;
+   border-radius: 0px;
+   background: #2F303A;}
+.h1 {
+    /* EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    /* or 136% */
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    text-align: center; 
+} 
+.h1-text-conteiner{
+    padding-top: 200px;
+    padding-bottom: 280px;
+    max-width: 696px;
+    justify-content: center;
+    text-align: center;
+}
+.service{
+    padding: 10px 41px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    
+
+   font-family: 'Roboto';
+ font-style: normal;
+ font-weight: 700;
+ font-size: 16px;
+  line-height: 30px;
+/* identical to box height, or 188% */
+letter-spacing: 0.06em;
+
+color: #FFFFFF;
+
+}
+.nav-agencja{
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
+color: #212121;}
+.nav-kontakt{   
+    /* Kontakt */
+left: 656px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
+color: #212121;}
+.nav-portfolio{
+/* Portfolio */
+
+left: 552px;
+
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
+color: #212121;
+}
+
+.service{
+    padding: 10px 41px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    
+
+   font-family: 'Roboto';
+ font-style: normal;
+ font-weight: 700;
+ font-size: 16px;
+  line-height: 30px;
+/* identical to box height, or 188% */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+
+color: #FFFFFF;
+
+}
+.background-team{
+    /* Section bg */
+
+left: 0px;
+top: 1449px;
+height: 648px;
+
+   top: 
+   1449px;
+   border-radius: 0px;
+background: #F5F4FA;
+}
+.post-first-main{
+    /* LOREM IPSUM */
+
+    left: 215px;
+    top: 774px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
+    color: #212121;
+    
+    }
+.post-first{
+     /* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada */
+    left: 215px;
+    top: 800px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    
+    letter-spacing: 0.03em;
+    
+    color: #757575;}
+.post-two-main{
+    /* LOREM IPSUM */
+
+    left: 515px;
+    top: 774px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
+    color: #212121;}
+.post-two{
+    /* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada */
+
+    left: 515px;
+    top: 800px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+   /* or 171% */
+
+   letter-spacing: 0.03em;
+
+   color: #757575;}
+.post-three-main{
+    /* LOREM IPSUM */
+
+    left: 815px;
+    top: 774px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
+    color: #212121;
+    }
+.post-three{
+    /* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada */
+
+    left: 815px;
+    top: 800px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    
+    letter-spacing: 0.03em;
+    
+    color: #757575;}
+.post-for-main{
+    /* LOREM IPSUM */
+
+    left: 1115px;
+    top: 774px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
+    color: #212121;
+    }
+.hight-ul{
+    width: 270px;
+}    
+.post-for{
+    /* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada */
+
+    left: 1115px;
+    top: 800px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    
+    letter-spacing: 0.03em;
+    
+    color: #757575;} 
+.box-conteiner-tekst-ul {
+    display : flex;
+    column-gap : 15px;
+    justify-content: center;
+    Max-width: 1200px;
+    Margin: 0 auto;
+} 
+.flex{
+    flex-wrap: wrap;
+    display : flex;
+    column-gap : 30px;
+    justify-content: center;
+
+}
+.box-conteiner-ul{ 
+    display : flex;
+    column-gap : 30px;
+    justify-content: center;
+    Max-width: 1200px;
+    Margin: 0 auto;
+}
+.what-we-do{
+    /* Czym się zajmujemy */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+
+}
+.programming-img{
+    /* img */
+
+    left: 215px;
+    top: 1061px;}
+.comunity-img{
+    /* img */
+
+    left: 615px;
+    top: 1061px;}
+.color-img{
+    /* img */
+
+    left: 1015px;
+    top: 1061px;
+    }
+.team{
+    /* Nasz zespół */
+
+     left: 695px;
+     top: 1543px;
+     padding-top: 92px;
+     font-family: 'Roboto';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 36px;
+     line-height: 42px;
+     text-align: center;
+     letter-spacing: 0.03em;
+
+     color: #212121;}
+.JohnDoe-first{
+    /* img */
+
+    left: 215px;
+    top: 1635px;
+    
+    border-radius: 0px;}
+.JohnDoe-first-main{
+    /* John Doe */
+
+    left: 314px;
+    top: 1925px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: #212121;
+    }
+.Product-Designer{
+    /* Product Designer */
+
+left: 285px;
+top: 1954px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #757575;
+}
+.JohnDoe-two{
+    /* img */
+
+    left: 515px;
+    top: 1635px;
+    
+    border-radius: 0px;}
+.JohnDoe-two-main{/* John Doe */
+
+    left: 614px;
+    top: 1925px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: #212121;
+    }
+.Frontend-Developer{
+    /* Frontend Developer */
+
+    left: 577px;
+    top: 1954px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: #757575;
+    }
+.JohnDoe-three{
+    /* img */
+
+    left: 815px;
+    top: 1635px;
+    
+    border-radius: 0px;}
+.JohnDoe-three-main{/* John Doe */
+
+    left: 914px;
+    top: 1925px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: #212121;
+    }
+.Marketing{
+    /* Marketing */
+
+    left: 912px;
+    top: 1954px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: #757575;}
+.JohnDoe-for{
+    /* img */
+
+    left: 1115px;
+    top: 1635px;
+    
+    border-radius: 0px;}
+.JohnDoe-for-main{
+    /* John Doe */
+
+left: 1214px;
+top: 1925px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+}
+.UI-Designer{
+    /* UI Designer */
+
+    left: 1207px;
+    top: 1954px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: #757575;}
+.address-footer{/* m. Warszawa, Aleje Jerozolimskie 21 */
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    
+    letter-spacing: 0.03em;
+    
+    color: #FFFFFF;
+    }
+.mailto-footer{/* info@example.com */
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    
+    letter-spacing: 0.03em;
+    
+    color: rgba(255, 255, 255, 0.6);
+    }
+.tel-footer{/* +48 111 111 111 */
+
+    left: 215px;
+    top: 2268px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    
+    letter-spacing: 0.03em;
+    
+    color: rgba(255, 255, 255, 0.6);}
+.btn-portfolio{
+    justify-content: center;
+    display: flex;
+
+}
+.btn-all {
+    /* Rectangle 10 */
+    margin: 94px 8px 56px;
+    left: 510px;
+    top: 174px;
+    padding: 6px 22px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    border: 0px solid}  
+.btn-all:focus {background-color: #2196F3;
+    }
+.btn-all:hover {
+        cursor: pointer;
+        background-color: #2196F3
+    }
+.btn-strony{
+    /* Rectangle 10 */
+    margin: 94px 8px 56px;
+    left: 639px;
+    top: 174px;
+    padding: 6px 22px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    border: 0px solid}
+.btn-strony:focus {background-color: #2196F3;
+    }
+.btn-strony:hover {
+        cursor: pointer;
+        background-color: #2196F3
+    }
+.btn-aplikacje{
+        /* Rectangle 10 */
+    margin: 94px 8px 56px;
+    left: 740px;
+    top: 174px;
+    padding: 6px 22px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    border: 0px solid}
+.btn-aplikacje:focus {background-color: #2196F3;
+    }
+.btn-aplikacje:hover {
+        cursor: pointer;
+        background-color: #2196F3
+    }
+.btn-dizajn {
+    /* Rectangle 10 */
+    margin: 94px 8px 56px;
+    left: 862px;
+    top: 174px;
+    padding: 6px 22px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    border: 0px solid}
+
+.btn-dizajn:focus {background-color: #2196F3;
+    }
+.btn-dizajn:hover {
+        cursor: pointer;
+    
+        background-color: #2196F3
+    }
+.btn-marketing {
+    /* Rectangle 10 */
+margin: 94px 8px 56px;
+left: 961px;
+top: 174px;
+padding: 6px 22px;
+background: #F5F4FA;
+border-radius: 4px;
+border: 0px solid}
+.btn-marketing:focus {background-color: #2196F3;
+    }
+.btn-marketing:hover {
+        cursor: pointer;
+    
+        background-color: #2196F3
+    }    
+.Technocrack-img {
+    /* img */
+    
+    left: 215px;
+    top: 262px;
+    }
+.border {
+    border: 1px solid rgba(238, 238, 238, 1);}  
+.Technocrack-main {
+    /* Technocrack */
+    padding-left: 24px;
+left: 239px;
+top: 576px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 36px;
+/* identical to box height, or 200% */
+text-align: left;
+letter-spacing: 0.06em;
+
+color: #212121;
+
+}
+.Technocrack-tekst {
+    /* Strona internetowa */
+padding-left: 24px;
+left: 239px;
+top: 616px;
+text-align: left;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 188% */
+
+letter-spacing: 0.03em;
+
+color: #757575;
+
+}
+.Grafika-New-Orlean-vs-Golden-Star-img {
+    /* img */
+
+left: 615px;
+top: 262px;
+}
+.Grafika-New-Orlean-vs-Golden-Star-main {
+    /* Grafika New Orlean vs Golden Star */
+
+left: 639px;
+top: 576px;
+text-align: left;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 36px;
+/* identical to box height, or 200% */
+padding-left: 24px;
+letter-spacing: 0.06em;
+
+color: #212121;
+
+}
+.Grafika-New-Orlean-vs-Golden-Star-tekst{
+    /* Dizajn */
+
+left: 639px;
+top: 616px;
+text-align: left;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 188% */
+padding-left: 24px;
+letter-spacing: 0.03em;
+
+color: #757575;
+
+}
+.Restauracja-Seafood-img {
+    /* img */
+
+left: 1015px;
+top: 262px;
+}
+.Restauracja-Seafood-main {
+    /* Restauracja Seafood */
+
+left: 1039px;
+top: 576px;
+text-align: left;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 36px;
+/* identical to box height, or 200% */
+padding-left: 24px;
+letter-spacing: 0.06em;
+
+color: #212121;
+
+}
+.Restauracja-Seafood-tekst{
+    /* Aplikacja */
+
+left: 1039px;
+top: 616px;
+text-align: left;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 188% */
+
+letter-spacing: 0.03em;
+
+color: #757575;
+
+}
+.Projekt-Prime-img {
+    /* img */
+
+    left: 215px;
+    top: 696px;
+    }
+.Projekt-Prime-main{
+    /* Projekt Prime */
+    padding-left: 24px;
+left: 239px;
+top: 1010px;
+text-align: left;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 36px;
+/* identical to box height, or 200% */
+
+letter-spacing: 0.06em;
+
+color: #212121;
+
+}
+.Projekt-Prime-tekst{
+    /* Marketing */
+    padding-left: 24px;
+left: 239px;
+top: 1050px;
+text-align: left;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 188% */
+
+letter-spacing: 0.03em;
+
+color: #757575;
+}
+.Projekt-Boxes-img{
+    /* img */
+
+    left: 615px;
+    top: 696px;
+    }
+.Projekt-Boxes-main {
+    /* Projekt Boxes */
+    padding-left: 24px;
+left: 639px;
+top: 1010px;
+text-align: left;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 36px;
+/* identical to box height, or 200% */
+
+letter-spacing: 0.06em;
+
+color: #212121;
+
+}
+.Projekt-Boxes-tekst{
+    /* Aplikacja */
+    padding-left: 24px;
+    left: 639px;
+    top: 1050px;
+    text-align: left;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+    
+    letter-spacing: 0.03em;
+    
+    color: #757575;
+    }
+.Inspiration-has-no-Borders-img{
+    /* img */
+
+left: 1015px;
+top: 696px;
+
+}
+.Inspiration-has-no-Borders-main {
+    /* Inspiration has no Borders */
+    padding-left: 24px;
+left: 1039px;
+top: 1010px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 36px;
+/* identical to box height, or 200% */
+
+letter-spacing: 0.06em;
+text-align: left;
+color: #212121;
+
+}
+.Inspiration-has-no-Borders-tekst{
+    /* Strona internetowa */
+    padding-left: 24px;
+left: 1039px;
+top: 1050px;
+text-align: left;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 188% */
+
+letter-spacing: 0.03em;
+
+color: #757575;
+
+}
+.Magazyn-Limited-Edition-img{
+    /* img */
+
+left: 215px;
+top: 1130px;
+
+}
+.Magazyn-Limited-Edition-main {
+    /* Magazyn Limited Edition */
+    padding-left: 24px;
+left: 239px;
+top: 1444px;
+text-align: left;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 36px;
+/* identical to box height, or 200% */
+
+letter-spacing: 0.06em;
+
+color: #212121;
+
+}
+.Magazyn-Limited-Edition-tekst{
+    /* Dizajn */
+    padding-left: 24px;
+left: 239px;
+top: 1484px;
+text-align: left;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 188% */
+
+letter-spacing: 0.03em;
+
+color: #757575;
+}
+.Projekt-LAB-img{
+    /* img */
+
+left: 615px;
+top: 1130px;
+
+}
+.Projekt-LAB-main {
+    /* Projekt LAB */
+    padding-left: 24px;
+left: 639px;
+top: 1444px;
+text-align: left;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 36px;
+/* identical to box height, or 200% */
+
+letter-spacing: 0.06em;
+
+color: #212121;
+}
+.Projekt-LAB-tekst{
+    /* Marketing */
+    padding-left: 24px;
+left: 639px;
+top: 1484px;
+text-align: left;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 188% */
+
+letter-spacing: 0.03em;
+
+color: #757575;
+}
+.Growing-Business-img{
+    /* img */
+
+
+left: 1015px;
+top: 1130px;
+
+}
+.Growing-Business-main {
+    /* Growing Business */
+    padding-left: 24px;
+left: 1039px;
+top: 1444px;
+text-align: left;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 36px;
+/* identical to box height, or 200% */
+
+letter-spacing: 0.06em;
+
+color: #212121;
+
+}
+.Growing-Business-tekst {
+    /* Aplikacja */
+    padding-left: 24px;
+left: 1039px;
+top: 1484px;
+text-align: left;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 188% */
+
+letter-spacing: 0.03em;
+
+color: #757575;
+}
+footer{
+    background: #2F303A;
+}
+.footer-column {
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer {
+    padding-top: 50px;
+    height: 252px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin: 0px auto;
+    }   
