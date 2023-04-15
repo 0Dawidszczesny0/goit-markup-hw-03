@@ -103,8 +103,9 @@ header {
 }      
 .efect{
     /* Bg */
-   height: 600px;
-   top: 80px;
+   display: flex;
+    justify-content: center;
+    top: 80px;
    border-radius: 0px;
    background: #2F303A;}
 .h1 {
@@ -123,6 +124,9 @@ header {
     text-align: center; 
 } 
 .h1-text-conteiner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding-top: 200px;
     padding-bottom: 280px;
     max-width: 696px;
