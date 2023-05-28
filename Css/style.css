@@ -58,7 +58,7 @@ header {
     gap: 46px;
     justify-content: flex-end;
     align-self: center;
-    margin-left: 290px;
+    margin-left: 265px;
 }
 .nav-Webstudio{
     /* WebStudio */
@@ -123,6 +123,7 @@ header {
     display: flex;
     justify-content: center;
     text-align: center; 
+    background: #2F303A;
 } 
 .h1-text-conteiner{
     display: flex;
@@ -150,8 +151,9 @@ color: #FFFFFF;
 
 }
 .container{
-    width: 1200px;
-    }
+    max-width: 1200px;
+margin: 0 auto;
+padding: 0 15px;}
 .nav-agencja{
 
 font-family: 'Roboto';
@@ -712,20 +714,11 @@ border: 0px solid}
     
         background-color: #2196F3
     }    
-.Technocrack-img {
-    /* img */
-    
-    left: 215px;
-    top: 262px;
-    }
 .border {
     border: 1px solid rgba(238, 238, 238, 1);}  
 .Technocrack-main {
     /* Technocrack */
     padding-left: 24px;
-left: 239px;
-top: 576px;
-
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
@@ -741,8 +734,6 @@ color: #212121;
 .Technocrack-tekst {
     /* Strona internetowa */
 padding-left: 24px;
-left: 239px;
-top: 616px;
 text-align: left;
 font-family: 'Roboto';
 font-style: normal;
@@ -756,17 +747,8 @@ letter-spacing: 0.03em;
 color: #757575;
 
 }
-.Grafika-New-Orlean-vs-Golden-Star-img {
-    /* img */
-
-left: 615px;
-top: 262px;
-}
 .Grafika-New-Orlean-vs-Golden-Star-main {
     /* Grafika New Orlean vs Golden Star */
-
-left: 639px;
-top: 576px;
 text-align: left;
 font-family: 'Roboto';
 font-style: normal;
@@ -782,9 +764,6 @@ color: #212121;
 }
 .Grafika-New-Orlean-vs-Golden-Star-tekst{
     /* Dizajn */
-
-left: 639px;
-top: 616px;
 text-align: left;
 font-family: 'Roboto';
 font-style: normal;
@@ -798,17 +777,8 @@ letter-spacing: 0.03em;
 color: #757575;
 
 }
-.Restauracja-Seafood-img {
-    /* img */
-
-left: 1015px;
-top: 262px;
-}
 .Restauracja-Seafood-main {
     /* Restauracja Seafood */
-
-left: 1039px;
-top: 576px;
 text-align: left;
 font-family: 'Roboto';
 font-style: normal;
@@ -824,9 +794,6 @@ color: #212121;
 }
 .Restauracja-Seafood-tekst{
     /* Aplikacja */
-
-left: 1039px;
-top: 616px;
 text-align: left;
 font-family: 'Roboto';
 font-style: normal;
@@ -840,17 +807,9 @@ letter-spacing: 0.03em;
 color: #757575;
 
 }
-.Projekt-Prime-img {
-    /* img */
-
-    left: 215px;
-    top: 696px;
-    }
 .Projekt-Prime-main{
     /* Projekt Prime */
     padding-left: 24px;
-left: 239px;
-top: 1010px;
 text-align: left;
 font-family: 'Roboto';
 font-style: normal;
@@ -867,8 +826,6 @@ color: #212121;
 .Projekt-Prime-tekst{
     /* Marketing */
     padding-left: 24px;
-left: 239px;
-top: 1050px;
 text-align: left;
 font-family: 'Roboto';
 font-style: normal;
@@ -881,17 +838,9 @@ letter-spacing: 0.03em;
 
 color: #757575;
 }
-.Projekt-Boxes-img{
-    /* img */
-
-    left: 615px;
-    top: 696px;
-    }
 .Projekt-Boxes-main {
     /* Projekt Boxes */
     padding-left: 24px;
-left: 639px;
-top: 1010px;
 text-align: left;
 font-family: 'Roboto';
 font-style: normal;
@@ -922,18 +871,9 @@ color: #212121;
     
     color: #757575;
     }
-.Inspiration-has-no-Borders-img{
-    /* img */
-
-left: 1015px;
-top: 696px;
-
-}
 .Inspiration-has-no-Borders-main {
     /* Inspiration has no Borders */
     padding-left: 24px;
-left: 1039px;
-top: 1010px;
 
 font-family: 'Roboto';
 font-style: normal;
@@ -950,8 +890,6 @@ color: #212121;
 .Inspiration-has-no-Borders-tekst{
     /* Strona internetowa */
     padding-left: 24px;
-left: 1039px;
-top: 1050px;
 text-align: left;
 font-family: 'Roboto';
 font-style: normal;
@@ -975,8 +913,7 @@ top: 1130px;
 .Magazyn-Limited-Edition-main {
     /* Magazyn Limited Edition */
     padding-left: 24px;
-left: 239px;
-top: 1444px;
+
 text-align: left;
 font-family: 'Roboto';
 font-style: normal;
@@ -993,8 +930,7 @@ color: #212121;
 .Magazyn-Limited-Edition-tekst{
     /* Dizajn */
     padding-left: 24px;
-left: 239px;
-top: 1484px;
+
 text-align: left;
 font-family: 'Roboto';
 font-style: normal;
@@ -1007,18 +943,9 @@ letter-spacing: 0.03em;
 
 color: #757575;
 }
-.Projekt-LAB-img{
-    /* img */
-
-left: 615px;
-top: 1130px;
-
-}
 .Projekt-LAB-main {
     /* Projekt LAB */
     padding-left: 24px;
-left: 639px;
-top: 1444px;
 text-align: left;
 font-family: 'Roboto';
 font-style: normal;
@@ -1034,8 +961,6 @@ color: #212121;
 .Projekt-LAB-tekst{
     /* Marketing */
     padding-left: 24px;
-left: 639px;
-top: 1484px;
 text-align: left;
 font-family: 'Roboto';
 font-style: normal;
@@ -1048,19 +973,9 @@ letter-spacing: 0.03em;
 
 color: #757575;
 }
-.Growing-Business-img{
-    /* img */
-
-
-left: 1015px;
-top: 1130px;
-
-}
 .Growing-Business-main {
     /* Growing Business */
     padding-left: 24px;
-left: 1039px;
-top: 1444px;
 text-align: left;
 font-family: 'Roboto';
 font-style: normal;
@@ -1077,8 +992,6 @@ color: #212121;
 .Growing-Business-tekst {
     /* Aplikacja */
     padding-left: 24px;
-left: 1039px;
-top: 1484px;
 text-align: left;
 font-family: 'Roboto';
 font-style: normal;
