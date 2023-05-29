@@ -17,6 +17,14 @@ body {
 font-family: "Roboto" , sans-serif;
 
 }
+.container-header {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    border: 1px solid;
+    
+    border-color:rgba(236, 236, 236, 1);
+}
 .header-padding {
     margin: 0 auto;
     padding: 0 15px;
@@ -224,9 +232,6 @@ background: #F5F4FA;
 }
 .post-first-main{
     /* LOREM IPSUM */
-
-    left: 215px;
-    top: 774px;
     
     font-family: 'Roboto';
     font-style: normal;
@@ -241,9 +246,6 @@ background: #F5F4FA;
     }
 .post-first{
      /* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada */
-    left: 215px;
-    top: 800px;
-    
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -255,11 +257,7 @@ background: #F5F4FA;
     
     color: #757575;}
 .post-two-main{
-    /* LOREM IPSUM */
-
-    left: 515px;
-    top: 774px;
-    
+    /* LOREM IPSUM */ 
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -271,10 +269,6 @@ background: #F5F4FA;
     color: #212121;}
 .post-two{
     /* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada */
-
-    left: 515px;
-    top: 800px;
-
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -287,9 +281,6 @@ background: #F5F4FA;
    color: #757575;}
 .post-three-main{
     /* LOREM IPSUM */
-
-    left: 815px;
-    top: 774px;
     
     font-family: 'Roboto';
     font-style: normal;
@@ -304,8 +295,6 @@ background: #F5F4FA;
 .post-three{
     /* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada */
 
-    left: 815px;
-    top: 800px;
     
     font-family: 'Roboto';
     font-style: normal;
@@ -320,9 +309,6 @@ background: #F5F4FA;
 .post-for-main{
     /* LOREM IPSUM */
 
-    left: 1115px;
-    top: 774px;
-    
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -333,14 +319,9 @@ background: #F5F4FA;
     
     color: #212121;
     }
-.hight-ul{
-    width: 270px;
-}    
+
 .post-for{
     /* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada */
-
-    left: 1115px;
-    top: 800px;
     
     font-family: 'Roboto';
     font-style: normal;
@@ -387,22 +368,9 @@ letter-spacing: 0.03em;
 color: #212121;
 
 }
-.programming-img{
-    /* img */
-
-    left: 215px;
-    top: 1061px;}
-.comunity-img{
-    /* img 
-.color-img{
-    /* img */
-
-    }
 .team{
     /* Nasz zespół */
 
-     left: 695px;
-     top: 1543px;
      padding-top: 92px;
      font-family: 'Roboto';
      font-style: normal;
@@ -413,19 +381,12 @@ color: #212121;
      letter-spacing: 0.03em;
 
      color: #212121;}
-.JohnDoe-first{
+.JohnDoe-border{
     /* img */
-
-    left: 215px;
-    top: 1635px;
     
     border-radius: 0px;}
 .JohnDoe-first-main{
     /* John Doe */
-
-    left: 314px;
-    top: 1925px;
-    
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -441,8 +402,6 @@ color: #212121;
 .Product-Designer{
     /* Product Designer */
 
-left: 285px;
-top: 1954px;
 
 font-family: 'Roboto';
 font-style: normal;
@@ -456,18 +415,8 @@ letter-spacing: 0.03em;
 
 color: #757575;
 }
-.JohnDoe-two{
-    /* img */
-
-    left: 515px;
-    top: 1635px;
-    
-    border-radius: 0px;}
 .JohnDoe-two-main{/* John Doe */
 
-    left: 614px;
-    top: 1925px;
-    
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -483,9 +432,6 @@ color: #757575;
 .Frontend-Developer{
     /* Frontend Developer */
 
-    left: 577px;
-    top: 1954px;
-    
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -498,18 +444,10 @@ color: #757575;
     
     color: #757575;
     }
-.JohnDoe-three{
-    /* img */
 
-    left: 815px;
-    top: 1635px;
-    
-    border-radius: 0px;}
-.JohnDoe-three-main{/* John Doe */
+.JohnDoe-three-main{
+    /* John Doe */
 
-    left: 914px;
-    top: 1925px;
-    
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -524,9 +462,6 @@ color: #757575;
     }
 .Marketing{
     /* Marketing */
-
-    left: 912px;
-    top: 1954px;
     
     font-family: 'Roboto';
     font-style: normal;
@@ -539,18 +474,8 @@ color: #757575;
     letter-spacing: 0.03em;
     
     color: #757575;}
-.JohnDoe-for{
-    /* img */
-
-    left: 1115px;
-    top: 1635px;
-    
-    border-radius: 0px;}
 .JohnDoe-for-main{
     /* John Doe */
-
-left: 1214px;
-top: 1925px;
 
 font-family: 'Roboto';
 font-style: normal;
@@ -567,9 +492,6 @@ color: #212121;
 .UI-Designer{
     /* UI Designer */
 
-    left: 1207px;
-    top: 1954px;
-    
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -609,9 +531,6 @@ color: #212121;
     }
 .tel-footer{/* +48 111 111 111 */
 
-    left: 215px;
-    top: 2268px;
-    
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -630,8 +549,6 @@ color: #212121;
 .btn-all {
     /* Rectangle 10 */
     margin: 94px 8px 56px;
-    left: 510px;
-    top: 174px;
     padding: 6px 22px;
     background: #F5F4FA;
     border-radius: 4px;
@@ -645,8 +562,6 @@ color: #212121;
 .btn-strony{
     /* Rectangle 10 */
     margin: 94px 8px 56px;
-    left: 639px;
-    top: 174px;
     padding: 6px 22px;
     background: #F5F4FA;
     border-radius: 4px;
@@ -660,8 +575,6 @@ color: #212121;
 .btn-aplikacje{
         /* Rectangle 10 */
     margin: 94px 8px 56px;
-    left: 740px;
-    top: 174px;
     padding: 6px 22px;
     background: #F5F4FA;
     border-radius: 4px;
@@ -675,8 +588,6 @@ color: #212121;
 .btn-dizajn {
     /* Rectangle 10 */
     margin: 94px 8px 56px;
-    left: 862px;
-    top: 174px;
     padding: 6px 22px;
     background: #F5F4FA;
     border-radius: 4px;
@@ -692,8 +603,7 @@ color: #212121;
 .btn-marketing {
     /* Rectangle 10 */
 margin: 94px 8px 56px;
-left: 961px;
-top: 174px;
+
 padding: 6px 22px;
 background: #F5F4FA;
 border-radius: 4px;
@@ -848,8 +758,6 @@ color: #212121;
 .Projekt-Boxes-tekst{
     /* Aplikacja */
     padding-left: 24px;
-    left: 639px;
-    top: 1050px;
     text-align: left;
     font-family: 'Roboto';
     font-style: normal;
@@ -892,13 +800,6 @@ line-height: 30px;
 letter-spacing: 0.03em;
 
 color: #757575;
-
-}
-.Magazyn-Limited-Edition-img{
-    /* img */
-
-left: 215px;
-top: 1130px;
 
 }
 .Magazyn-Limited-Edition-main {
