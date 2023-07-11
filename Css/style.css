@@ -18,7 +18,6 @@ font-family: "Roboto" , sans-serif;
 
 }
 .container-header {
-    max-width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
     border: 1px solid;
@@ -34,12 +33,15 @@ font-family: "Roboto" , sans-serif;
     flex-direction: row;  
     
 }
+.btn-all:hover{
+
+}
 a:hover {
     color: #2196F3;
 }
 button:hover {
-    color: #2196F3;
-    background-color: #ECECEC;
+    color: #ECECEC;
+    background-color: #1864af;
 }
 ul {
 
@@ -105,6 +107,7 @@ header {
     }  
 .section {
     padding : 94px
+    
 }      
 .efect{
     /* Bg */
@@ -130,6 +133,9 @@ header {
     background: #2F303A;
 } 
 .h1-text-conteiner{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -158,6 +164,7 @@ color: #FFFFFF;
     max-width: 1200px;
 margin: 0 auto;
 padding: 0 15px;
+
 }
 .nav-agencja{
 
@@ -221,12 +228,6 @@ color: #FFFFFF;
 .background-team{
     /* Section bg */
 
-left: 0px;
-top: 1449px;
-height: 648px;
-
-   top: 
-   1449px;
    border-radius: 0px;
 background: #F5F4FA;
 }
@@ -337,10 +338,10 @@ background: #F5F4FA;
     display : flex;
     column-gap : 15px;
     justify-content: center;
-    Max-width: 1200px;
     Margin: 0 auto;
 } 
 .flex{
+    
     flex-wrap: wrap;
     display : flex;
     column-gap : 30px;
@@ -351,7 +352,7 @@ background: #F5F4FA;
     display : flex;
     column-gap : 30px;
     justify-content: center;
-    Max-width: 1200px;
+
     Margin: 0 auto;
 }
 .what-we-do{
@@ -552,8 +553,12 @@ color: #212121;
     padding: 6px 22px;
     background: #F5F4FA;
     border-radius: 4px;
-    border: 0px solid}  
-.btn-all:focus {background-color: #2196F3;
+    border: 0px solid;
+    
+}  
+    
+.btn-all:focus {
+    background-color: #2196F3;
     }
 .btn-all:hover {
         cursor: pointer;
@@ -908,7 +913,6 @@ footer{
     padding-top: 50px;
     height: 252px;
     width: 100%;
-    max-width: 1200px;
     margin: 0 auto;
     margin: 0px auto;
     }   
